@@ -20,7 +20,7 @@ export default function App() {
   };
 
   return (
-    <div className="  bg-red-400 bg-cover bg-no-repeat text-white"
+    <div className=" pb-40 pt-20 bg-red-400 bg-cover bg-no-repeat text-white"
      style={{
      backgroundImage: `url('${process.env.PUBLIC_URL}/bg-intro-desktop.png')`,
    }}
@@ -132,9 +132,8 @@ export default function App() {
                 CLAIM YOUR FREE TRIAL
               </button>
             </form>
-            <p className="text-blue-500 text-xs">
-              By Clicking the button you are agreeing to our
-              <strong className="text-red-500">Terms and Services</strong>
+            <p className="text-blue-500 text-xs ">
+              By Clicking the button you are agreeing to our <strong className="text-red-500"> Terms and Services</strong>
             </p>
           </div>
         </div>
