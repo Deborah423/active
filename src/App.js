@@ -20,7 +20,7 @@ export default function App() {
   };
 
   return (
-    <div className=" pb-40 pt-20 bg-red-400 bg-cover bg-no-repeat text-white"
+    <div className=" pb-10 overflow-x-hidden overflow-y-hidden h-screen bg-red-400 bg-cover bg-no-repeat text-white"
      style={{
      backgroundImage: `url('${process.env.PUBLIC_URL}/bg-intro-desktop.png')`,
    }}
